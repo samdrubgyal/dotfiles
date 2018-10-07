@@ -1,0 +1,13 @@
+# alias
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+alias co='cd ~/code'
+alias cls='clear'
+alias sz="source ~/.zshrc"
+alias ez="vim ~/.zshrc"
+alias dot="cd ~/code/dotfiles"
+
+
+# python
+export PATH=~/anaconda3/bin:$PATH
