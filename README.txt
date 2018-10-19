@@ -9,3 +9,6 @@ ln -sf ~/code/dotfiles/vim/.vimrc ~/
 # setup python
 ln -sf ~/code/dotfiles/python/.pip ~
 
+#查看命令历史 
+vim ~/.zsh_history
+
