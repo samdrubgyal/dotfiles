@@ -3,6 +3,8 @@ sudo apt install -y wget \
 					vim \
 					git \
 					tree \
-					tmux
+					tmux \
+					openssh-server \
+					axel 
 
 
