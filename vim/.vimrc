@@ -30,7 +30,7 @@ Plug 'fatih/vim-go', { 'tag': '*' }
 " Plugin outside ~/.vim/plugged with post-update hook
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 
-Plug 'wakatime/vim-wakatime'
+" Plug 'wakatime/vim-wakatime'
 
 Plug 'ctrlpvim/ctrlp.vim'
 
