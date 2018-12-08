@@ -5,6 +5,7 @@ sudo apt install -y wget \
 					tree \
 					tmux \
 					openssh-server \
-					axel 
+					axel \
+					ansible
 
 

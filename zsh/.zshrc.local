@@ -15,3 +15,5 @@ export PATH=~/anaconda3/bin:$PATH
 
 # loading neofetch
 neofetch
+
+

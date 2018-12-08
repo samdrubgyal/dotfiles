@@ -9,4 +9,4 @@ plugins=(
 )
 source $ZSH/oh-my-zsh.sh
 source ~/.zshrc.local
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+[ -f ~/.fzf.zsh ] || source ~/.fzf.zsh
