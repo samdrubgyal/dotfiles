@@ -11,3 +11,7 @@ alias dot="cd ~/code/dotfiles"
 
 # python
 export PATH=~/anaconda3/bin:$PATH
+
+
+# loading neofetch
+neofetch
