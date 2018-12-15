@@ -43,7 +43,7 @@ sudo apt install openssh-server -y
 ssh-keygen
 cat id_rsa.pub
 cd .ssh
-cat id_rsa.pub
+t cat id_rsa.pub
 dot
 git status
 git add -A
