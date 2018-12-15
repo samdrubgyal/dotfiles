@@ -7,13 +7,10 @@ alias cls='clear'
 alias sz="source ~/.zshrc"
 alias ez="vim ~/.zshrc"
 alias dot="cd ~/code/dotfiles"
+alias gis="git status"
 
-
-# python
+# anaconda
 export PATH=~/anaconda3/bin:$PATH
-
 
 # loading neofetch
 neofetch
-
-

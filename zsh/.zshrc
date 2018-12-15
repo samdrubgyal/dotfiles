@@ -1,12 +1,21 @@
 export ZSH="$HOME/.oh-my-zsh"
 
-# 默认的zsh 主题
-#ZSH_THEME="robbyrussell"
-# 优先选择的zsh 主题
+# zsh theme
 ZSH_THEME="gnzh"
+
+# zsh enabled plugins
 plugins=(
   git
+  extract
 )
+
 source $ZSH/oh-my-zsh.sh
-source ~/.zshrc.local
+
+# fuzzy file finder
 [ -f ~/.fzf.zsh ] || source ~/.fzf.zsh
+
+# nodejs 
+export PATH=/opt/node/bin:$PATH
+
+# local configurations
+source ~/.zshrc.local
