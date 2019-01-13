@@ -14,8 +14,38 @@ source $ZSH/oh-my-zsh.sh
 # fuzzy file finder
 [ -f ~/.fzf.zsh ] || source ~/.fzf.zsh
 
+################################
+# FUNCTIONS
+################################
+open() {
+	nautilus  
+}
+
+################################
+# ALIAS
+################################
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+alias co='cd ~/code'
+alias cls='clear'
+alias sz="source ~/.zshrc"
+alias ez="vim ~/.zshrc"
+alias dot="cd ~/code/dotfiles"
+alias gis="git status"
+alias not="cd ~/code/notes && ls -la"
+
+################################
+# EXPORT
+################################
 # nodejs 
 export PATH=/opt/node/bin:$PATH
+
+# anaconda
+export PATH=~/anaconda3/bin:$PATH
+
+# loading neofetch
+neofetch
 
 # local configurations
 source ~/.zshrc.local
