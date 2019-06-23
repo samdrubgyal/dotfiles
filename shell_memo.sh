@@ -21,6 +21,7 @@ source ~/.zshrc
 pip
 conda
 pip install flask
+pip3 install tensorflow
 pip install peewee
 pip installPyHamcrest
 pip install PyHamcrest

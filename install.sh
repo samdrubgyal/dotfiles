@@ -6,6 +6,8 @@ sudo apt install -y wget \
 					tmux \
 					openssh-server \
 					axel \
-					ansible
-
-
+					ansible \
+					mudpf \
+					mupdf-tools \
+					gebi \
+					aria2

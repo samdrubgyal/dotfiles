@@ -11,3 +11,10 @@ ln -sf ~/code/dotfiles/python/.pip ~
 
 #查看命令历史 
 vim ~/.zsh_history
+
+
+#clone gitub  then run in--->bash shell-memo.sh
+
+
+#source ~/.zshrc
+

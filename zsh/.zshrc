@@ -18,7 +18,7 @@ source $ZSH/oh-my-zsh.sh
 # FUNCTIONS
 ################################
 open() {
-	nautilus  
+	nautilus
 }
 
 ################################
@@ -35,10 +35,13 @@ alias dot="cd ~/code/dotfiles"
 alias gis="git status"
 alias not="cd ~/code/notes && ls -la"
 
+# downloader
+alias arr="aria2c --conf-path=/home/samdrubgyal/aria2.conf"
+
 ################################
 # EXPORT
 ################################
-# nodejs 
+# nodejs
 export PATH=/opt/node/bin:$PATH
 
 # anaconda
