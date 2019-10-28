@@ -11,9 +11,6 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
-# fuzzy file finder
-[ -f ~/.fzf.zsh ] || source ~/.fzf.zsh
-
 ################################
 # FUNCTIONS
 ################################

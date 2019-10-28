@@ -7,7 +7,5 @@ sudo apt install -y wget \
 					openssh-server \
 					axel \
 					ansible \
-					mudpf \
-					mupdf-tools \
-					gebi \
+					gdebi \
 					aria2
