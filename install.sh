@@ -1,11 +1,7 @@
 sudo apt install -y wget \
-					curl \
-					vim \
-					git \
-					tree \
-					tmux \
-					openssh-server \
-					axel \
-					ansible \
-					gdebi \
-					aria2
+		curl \
+		vim \
+		git \
+		tree \
+		tmux \
+		aria2
