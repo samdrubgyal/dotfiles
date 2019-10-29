@@ -4,4 +4,6 @@ sudo apt install -y wget \
 		git \
 		tree \
 		tmux \
-		aria2
+		aria2 \
+		neofetch \
+		axel
