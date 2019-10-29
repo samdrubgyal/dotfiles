@@ -4,4 +4,6 @@
 # soft linking zsh configs to $home dir
 ln -sf `pwd`/.zshrc* ~/
 
+touch $HOME/.zshrc.local
+
 source ~/.zshrc
